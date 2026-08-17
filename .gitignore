@@ -1,0 +1,38 @@
+# Секреты
+.env
+
+# Данные (Total-Text большой!)
+data/Total-Text/
+data/**/*.png
+data/**/*.jpg
+data/**/*.txt
+
+# Веса моделей (могут быть сотни МБ!)
+checkpoints/
+*.pt
+*.pth
+runs_yolo/
+yolo_predictions/
+
+# Кэш и промежуточные результаты
+predictions/
+YOLO_format/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
