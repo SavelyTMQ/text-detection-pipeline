@@ -1,0 +1,23 @@
+# Основа
+torch>=2.0.0
+torchvision>=0.15.0
+numpy==1.24.3
+pandas==2.0.3
+matplotlib==3.7.2
+Pillow==10.0.0
+tqdm==4.66.1
+python-dotenv==1.0.0
+
+# Сегментация и детекция
+timm==0.9.7
+torchmetrics==1.2.0
+
+# YOLOv8
+ultralytics==8.0.196
+
+# Постобработка
+opencv-python==4.8.1.78
+pycocotools==2.0.7
+
+# Работа с данными
+PyYAML==6.0.1
